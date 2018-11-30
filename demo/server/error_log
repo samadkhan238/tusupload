@@ -1,0 +1,11 @@
+[29-Nov-2018 10:35:01 UTC] PHP Parse error:  syntax error, unexpected '$server' (T_VARIABLE) in /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/server.php on line 6
+[29-Nov-2018 10:35:02 UTC] PHP Parse error:  syntax error, unexpected '$server' (T_VARIABLE) in /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/server.php on line 6
+[29-Nov-2018 10:35:03 UTC] PHP Parse error:  syntax error, unexpected '$server' (T_VARIABLE) in /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/server.php on line 6
+[29-Nov-2018 10:35:06 UTC] PHP Parse error:  syntax error, unexpected '$server' (T_VARIABLE) in /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/server.php on line 6
+[29-Nov-2018 10:35:12 UTC] PHP Parse error:  syntax error, unexpected '$server' (T_VARIABLE) in /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/server.php on line 6
+[29-Nov-2018 11:24:48 UTC] PHP Fatal error:  Uncaught Predis\Connection\ConnectionException: Failed to parse address ":" [tcp://:] in /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+Stack trace:
+#0 /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/vendor/predis/predis/src/Connection/StreamConnection.php(128): Predis\Connection\AbstractConnection->onConnectionError('Failed to parse...', 0)
+#1 /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/vendor/predis/predis/src/Connection/StreamConnection.php(178): Predis\Connection\StreamConnection->createStreamSocket(Object(Predis\Connection\Parameters), 'tcp://:', 4)
+#2 /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/vendor/predis/predis/src/Connection/StreamConnection.php(100): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\Parameters))
+#3 /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/vendor/predis/p in /home/devwebdesignserv/tusuploads.dev-webdesignservices.com/demo/server/vendor/predis/predis/src/Connection/AbstractConnection.php on line 155
