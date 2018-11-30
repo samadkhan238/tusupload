@@ -9,8 +9,8 @@ RewriteCond $1 !^(index\.php|assets|robots\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
 
 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^files/?(.*)?$ server.php?/$1 [L,QSA]
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^files/?(.*)?$ server.php?/$1 [L,QSA]
 
 # BEGIN cPanel-generated php ini directives, do not edit
 # Manual editing of this file may result in unexpected behavior.

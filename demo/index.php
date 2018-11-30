@@ -1,5 +1,5 @@
 <?php 
-$endpoint = "https://".$_SERVER['HTTP_HOST']."/demo/server/files/";
+$endpoint = "https://".$_SERVER['HTTP_HOST']."/demo/server/server.php/";
 
 ?>
 <!doctype html>
