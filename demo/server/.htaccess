@@ -2,6 +2,9 @@ Options -Indexes
 
 RewriteEngine on
 
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
+
 RewriteCond $1 !^(index\.php|assets|robots\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
 
